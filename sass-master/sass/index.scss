@@ -1,0 +1,20 @@
+@import "_index-vars.scss";
+@import "mixning1.scss";
+.message{
+    padding: $padding-value;
+    @include border(1px solid #dddddd);
+    color: $for-color;
+    margin: 10px;
+}
+.success{
+    @extend .message;
+    border-color: goldenrod;
+}
+.errorr{
+@extend .message;
+border-color: rebeccapurple;
+}
+.warning{
+@extend .message;
+border-color: rgb(221, 248, 239);
+}
