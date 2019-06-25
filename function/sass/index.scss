@@ -1,0 +1,20 @@
+@import "function";
+@import "var";
+div.demo{
+    width: grid-width(20);
+    background: #f2e4a5;
+}
+$state:true;
+@if ($state) {
+    div.demo{
+        background: $confirm-bg-color;
+    }
+    
+}@else if(){
+    div.demo{
+        background: $confirm-bg-color1;
+    }
+  
+}@else{
+    
+}

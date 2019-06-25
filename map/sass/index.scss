@@ -1,0 +1,7 @@
+$red-map:(light:#d1e6a9,medium:#f7e855,dark:#e3e3e3);
+p{
+    color: map-get($red-map, light )
+}
+div{
+    color: map-get($red-map, dark )
+}
